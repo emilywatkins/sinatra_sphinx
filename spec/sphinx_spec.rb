@@ -1,6 +1,7 @@
 require('rspec')
 require('sphinx')
 
+
 describe(Sphinx) do
   describe("#riddle") do
     it("Returns true if answer is correct") do
